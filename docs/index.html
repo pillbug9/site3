@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <title>The Worst Site You Ever Did See !<title>
+        <style>
+            @keyframes tilt {
+        	    from {rotate: 3deg;}
+                to {rotate: -3deg;}
+            } 
+            * {
+              cursor: url("favicon/lashes4.gif");
+            }
+		    body::before {
+			    content: " ";
+			    display: block;
+			    position: fixed;
+			    top: 0;
+			    left: 0;
+			    bottom: 0;
+			    right: 0;
+			    background: linear-gradient(rgba(18, 16, 16, 0) 50%, 	rgba(0, 0, 0, 0.25) 50%);
+			    z-index: 1000000;
+			    background-size: 100% 2px, 3px 100%;
+			    pointer-events: none;
+		    }
+            body {
+            	background-color: black;
+                background-image: url("bg/multi188.jpg");
+            }
+            h1 {
+                color: LightSeaGreen;
+            	text-shadow: 2px 0 MediumAquaMarine, 0 2px MediumAquaMarine, -2px 0 MediumAquaMarine, 0 -2px MediumAquaMarine, 2px 2px MediumAquaMarine, 2px -2px MediumAquaMarine, -2px 2px MediumAquaMarine, -2px -2px MediumAquaMarine;
+                line-height: 30px;
+            }
+            h2 {
+                color: chocolate;
+                text-shadow: 2px 0 darkseagreen, 0 2px darkseagreen, -2px 0 darkseagreen, 0 -2px darkseagreen, 2px 2px darkseagreen, 2px -2px darkseagreen, -2px 2px darkseagreen, -2px -2px darkseagreen;
+                line-height: 20px;
+            }
+            h3 {
+                color: black;
+                text-shadow: 2px 0 cadetblue, 0 2px cadetblue, -2px 0 cadetblue, 0 -2px cadetblue, 2px 2px cadetblue, 2px -2px cadetblue, -2px 2px cadetblue, -2px -2px cadetblue;
+                line-height: 30px;
+            }
+            #leftcorner {
+            	left: 0px;
+                top: 0px;
+                position: relative;
+                width: 150px;
+                text-align: center;
+            }
+            #crossword {
+            	top: 200px;
+                left: 0px;
+                width: 200px;
+                z-index: 200;
+                position: fixed;
+            }
+            #logo {
+            	bottom: 0px;
+                left: 0px;
+                z-index: 30;
+                position: fixed;
+            }
+            #rightpoll {
+            	right: 0px;
+                top: 200px;
+                z-index: 30;
+                position: fixed;
+            }
+            #myc {
+            	display: block;
+            	margin: auto;
+                width: 550px;
+                height: 170px;
+            	border-style: ridge;
+            	border-width: 20px;
+            	border-color: crimson;
+            	animation-name: tilt;
+            	animation-duration: 0.33s;
+            	animation-direction: alternate;
+            	animation-iteration-count: infinite;
+            	animation-timing-function: linear;
+            	background-image: url("bg/multi253.jpg");
+            }
+        	#box {
+            	display: block;
+            	width: 900px;
+                margin: auto;
+            }
+            #buttons {
+            	display: block; 
+                width: 890px;
+                margin: auto;
+                margin-bottom: 10px;
+                padding-top: 7px;
+                background-color: khaki;
+                border-style: solid;
+            }
+            #left {
+            	display: block;
+                width: 565px;
+                float: left;
+                overflow: auto;
+            }
+            #right {
+            	display: block;
+                width: 320px;
+                float: right;
+            }
+            #bottom {
+            	display: block;
+                width: 890px;
+                margin: auto;
+                margin-top: 870px;
+                padding-top: 5px;
+                border-style: inset;
+                border-color: darkred;
+                border-width: 10px;
+                background-color: tan;
+            }
+            #aboutme {
+            	background-image: url("bg/multi170.jpg");
+                border-style: inset;
+                border-color: green;
+                border-width: 10px;
+                padding: 10px;
+                font-family: luminari, fantasy;
+                margin-bottom: 10px;
+                height: 650px;
+                overflow: auto;
+            }
+            #mood {
+            	display: block;
+                float: left;
+            	background-color: green;
+                border-style: groove;
+                border-color: darkred;
+                border-width: 10px;
+                padding: 10px;
+                margin-right: 10px;
+                font-family: bradley hand, cursive;
+            }
+            #mood h3 {
+            	text-shadow: none;
+            }
+            #oldthemes {
+            	display: block;
+                float: left;
+            	background-color: darkred;
+                border-style: solid;
+                border-radius: 5px;
+                padding: 10px;
+                font-family: bradley hand, cursive;
+                margin-right: 10px;
+            }
+            #neocities {
+            	display: block;
+                float: right;
+            	background-color: cadetblue;
+                border-style: outset;
+                border-color: chocolate;
+                border-width: 10px;
+                padding: 10px;
+                height: 90px;
+            }
+            #retronaut {
+            	display: block;
+            	background-color: darkorange;
+                border-style: outset;
+                border-color: darkmagenta;
+                border-width: 10px;
+                padding: 10px;
+                padding-bottom: 20px;
+                margin-bottom: 10px;
+                text-align: center;
+                font-family: american typewriter, serif;
+            }
+            #retronaut h2 {
+            	color: black;
+                text-shadow: none;
+            }
+            #retronaut a {
+            	color: green;
+            }
+            #hotline {
+            	display: block;
+                background-color: olive;
+                border-style: double;
+                border-color: plum;
+                border-width: 10px;
+                text-align: center;
+                font-family: american typewriter, serif;
+                padding: 10px;
+                padding-bottom: 30px;
+                margin-bottom: 10px;
+            }
+            #hotline h2 {
+            	color: rebeccapurple;
+                text-shadow: 2px 0 plum, 0 2px plum, -2px 0 plum, 0 -2px plum, 2px 2px plum, 2px -2px plum, -2px 2px plum, -2px -2px plum;
+            }
+            #hotline a {
+            	color: darkorange;
+            }
+            #null {
+            	display: block;
+                background-color: dimgrey;
+                border-style: outset;
+                border-color: grey;
+                border-width: 10px;
+                text-align: center;
+                font-family: american typewriter, serif;
+                padding: 10px;
+                padding-bottom: 10px;
+                margin-bottom: 10px;
+            }
+            #null h2 {
+            	color: black;
+                text-shadow: none;
+            }
+            #safont {
+            	display: block;
+                background-color: black;
+                border-style: solid;
+                border-color: cyan;
+                text-align: center;
+                margin-bottom: 10px;
+            }
+            #mybutton {
+            	display: block;
+                background-color: darkmagenta;
+                border-style: solid;
+                padding: 10px;
+                text-align: center;
+                font-family: bradley hand, cursive;
+                margin-bottom: 10px;
+            }
+            #mybutton textarea {
+            	font-family: bradley hand, cursive;
+            }
+            #mybutton h2 {
+            	color: black;
+                text-shadow: 2px 0 darkgreen, 0 2px darkgreen, -2px 0 darkgreen, 0 -2px darkgreen, 2px 2px darkgreen, 2px -2px darkgreen, -2px 2px darkgreen, -2px -2px darkgreen;
+            }
+            #bracelet {
+            	display: block;
+                background-color: white;
+                border-style: double;
+                borde-color: cadetblue;
+                margin-bottom: 10px;
+                padding: 5px;
+            }
+            #bracelet img {
+            	margin-left: -4px;
+            }
+            #teenytowers {
+            	display: block;
+                float: left;
+                background-color: pink;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                border-style: dashed;
+                border-color: cadetblue;
+                padding: 5px;
+                padding-right: 9px;
+            }
+            #teenytowers img{
+              margin-right: -4px;
+              margin-top: -4px;
+            }
+            #tower {
+              border-image-source: url("https://media.discordapp.net/attachments/777259086303592448/1172354203201576970/pixil-frame-0_19.png?ex=656002ef&is=654d8def&hm=b11f082ca17b271332430c87c742dcf933df70f95b50d1bd6efb8095e1bd8112&=");
+              border-image-width: 16px;
+              border-image-slice: 16;
+              border-image-repeat: repeat;
+              padding: 10px;
+              padding-right: 19px;
+              padding-top: 15px;
+            }
+            #fanlistings {
+            	display: block;
+                float: right;
+                height: 215px;
+                overflow: scroll;
+        		background-color: deeppink;
+            	border-style: outset;
+            	border-width: 5px;
+            	border-color: firebrick;
+            	padding: 5px;
+                margin-top: 10px;
+                color: indigo;
+        	}
+        	#fan {
+        		border-style: outset;
+        	}
+        </style>
+        
+        <script>
+            
+            function updates() {
+            	document.getElementById("aboutme").innerHTML = "<img id='header' src='https://images.cooltext.com/5640106.png'><a onclick='aboutMe()' rel='nofollow'><img id='back' src='https://web.archive.org/web/20090829021046/http://geocities.com/pdeuser/backarrow.gif'></a><div id='update'><p id='time'>11/15/23 || 09:12</p><p id='text'>update #37: i just attempted to join like 25 fanlistings, each of which have a little button on my page in the little fanlisting box.</p></div><div id='update'><p id='time'>11/10/23 || 08:51</p><p id='text'>update #36: i joined the <a href='https://keysklubhouse.com/index2'>teeny towers</a> pixel clicque (i think it's so cute). my litle room is the one that looks like the inside of a log cabin.</p></div><div id='update'><p id='time'>10/31/23 || 10:03</p><p id='text'>update #35: i joined the charm bracelet clique! my charm is the one with the little blinking eye. click on the connector ones to join the clique too, or click on the other two charms to see other people's charm bracelets.</p></div><div id='update'><p id='time'>10/27/23 || 9:21</p><p id='text'>update #34: i've decided i'm going to make a scavenger hunt for my page! it's gonna be really cool i hope, so look out for more updates on that maybe. i'll update this again when i'm finished.</p></div><div id='update'><p id='time'>10/24/23 || 23:55</p><p id='text'>update #33: i tried to join a web clique??? i'm not sure i was successful, but you can click on prince, grams, or tortimer to see more info :). i'm not sure if i'm actually part of it, but i just really love animal crossing (maybe i'll make a shrine for it later on)</p></div><div id='update'><p id='time'>10/15/23 || 13:06</p><p id='text'>update #32: i finished making the greenhouse, and you can find it using the button in the button menu. you can also put my plant in your greenhouse if you want to :)</p></div><div id='update'><p id='time'>10/12/23 || 19:06</p><p id='text'>update #31: i just foind out that webgardens exist, and i am for sure going to make one for my page. the whole concept is adorable. i don't have it anywhere near finished yet, so here's <a href='https://webgardens.neocities.org'>the link</a>, if you wanna learn about it.</p></div><div id='update'><p id='time'>10/9/23 || 19:37</p><p id='text'>update #30: i drastically changed my music page, so it's new and improved but also under heavy construction</p></div><div id='update'><p id='time'>6/ww/23 || 11:35</p><p id='text'>update #29: photos page is pretty nice. will be adding further updates, but it's pretty comprehensive as is.</p></div><div id='update'><p id='time'>6/07/23 || 09:34</p><p id='text'>update #28: new poll is up woohoo woohoo! also, photos page is being developed now.</p></div><div id='update'><p id='time'>5/20/23 || 26:02</p><p id='text'>update #27: i got ride of my contact me page and my updates page, and i put them in the about me box (this was much more effort than it should have been, and i cried)</p></div><div id='update'><p id='time'>5/19/23 || 21:51</p><p id='text'>update #26: i put a weekly poll thing on my page (there was a poll before, but now it's a weekly poll)</p></div><div id='update'><p id='time'>5/09/23 || 14:25</p><p id='text'>update #25: there is an eyeball on my homepage now, because i quite like eyeballs</p> </div><div id='update'><p id='time'>5/09/23 || 13:49</p><p id='text'>update #24: i'm fixing up my music page, and it's going to be so much cooler than before.</p></div><div id='update'><p id='time'>4/24/23 || 15:03</p><p id='text'>update #23: there is now a daily crossword puzzle on my page.</p></div><div id='update'><p id='time'>4/24/23 || 08:11</p><p id='text'>update #22: i figured out how to do the fake crt thing that some people have on their pages, so now it is on my homepage.</p></div><div id='update'><p id='time'>4/21/23 || 19:15</p><p id='text'>update #21: i made a page where i started making my england blog. i know the whole point of a blog is to talk about something as you experience it, but i don't care very much. you can look at it unfinished <a href='https://mycie.neocities.org/england'>here</a>.</p></div> <div id='update'><p id='time'>4/21/23 || 13:01</p><p id='text'>update #20: i put a beautiful poll on my homepage.</p></div><div id='update'><p id='time'>3/14/23 || 10:52</p><p id='text'>update #19: my daria theme is completed, and you can use it by clicking on the other myc button that i made.</p></div> <div id='update'><p id='time'>3/11/23 || 10:32</p><p id='text'>update #18: i added little clocks that show the real time to the homepage.</p></div><div id='update'><p id='time'>3/08/23 || 19:43</p><p id='text'>update #17: i made my homepage as all-browser friendly as i could make it</p></div><div id='update'><p id='time'>2/25/23 || 14:13</p><p id='text'>update #16: i added a flag counter and a stream of counsciousness box</p></div><div id='update'><p id='time'>2/25/23 || 10:40</p><p id='text'>update #15: i moved my whole homepage to neocities and i added a little mood thing at the bottom :)</p></div><div id='update'><p id='time'>2/23/23 || 11:43</p><p id='text'>update #14: added online users display even though there is definitely only 1 most of the time. (i'm updating at the exact same time as yesterday omg)</p></div><div id='update'><p id='time'>2/22/23 || 11:43</p><p id='text'>update #13: joined hotline webring and added the widget onto my page. i also added a moon phase widget which is adorable and i love it.</p></div><div id='update'><p id='time'>2/20/23 || 17:41</p><p id='text'>update #12: made crochet page, button, and added my first pattern to the page </p></div><div id='update'><p id='time'>2/13/23 || 13:26</p><p id='text'>update #11: made a button for people to link to my site and a little section for it on the homepage</p></div><div id='update'><p id='time'>2/13/23 || 10:43</p><p id='text'>update #10: gave the webring its own box on homepage</p></div><div id='update'><p id='time'>2/12/23 || 20:38</p><p id='text'>update #9: added a guestbook with button in marquee menu</p></div><div id='update'><p id='time'>2/07/23 || 17:40</p><p id='text'>update #8: midi files styled (quite beautifully might i add), but i need to add a bunch more to the music page</p></div><div id='update'><p id='time'>2/06/23 || 23:31</p><p id='text'>update #7: midi files added to music page (it still needs much much much more, and i want it to be stylish)</p></div><div id='update'><p id='time'>2/01/23 || 20:30</p><p id='text'>update #6: hit counter added</p></div><div id='update'><p id='time'>2/01/23 || 16:55</p><p id='text'>update #5: typology added to about me</p></div><div id='update'><p id='time'>1/30/23 || 10:09</p><p id='text'>update #4: back arrow added to gifs blog</p></div><div id='update'><p id='time'>1/29/23 || 13:20</p><p id='text'>update #3: gifs blog added with button, but i still have to add a back arrow</p></div><div id='update'><p id='time'>1/23/23 || 15:55</p><p id='text'>update #2: updated the update button because the last one made me unhappy</p></div><div id='update'><p id='time'>1/22/23 || 13:31</p><p id='text'>update #1: updates page added and updates button made hehehe :)</p></div>>";
+                document.getElementById("aboutme").style = "background-image: url('http://1.bp.blogspot.com/_MJy6UA_5R0A/R3OyM1UkQTI/AAAAAAAAAWY/j9IOt3mpQ1A/s320/glass-texture-1.jpg');"
+            	var update = document.querySelectorAll("[id='update']");
+       				for(var i = 0; i < update.length; i ++)
+       					update[i].style = "background-image: url('http://1.bp.blogspot.com/_MJy6UA_5R0A/R3OyM1UkQTI/AAAAAAAAAWY/j9IOt3mpQ1A/s320/glass-texture-1.jpg');display: block;margin: auto;box-shadow: 0px 0px 30px;width: 450px;";
+                var time = document.querySelectorAll("[id = 'time']");
+                	for (var i = 0; i < time.length; i ++)
+                    	time[i].style = "font-size: 15px;font-family: monospace;text-align: left;";
+                var text = document.querySelectorAll("[id = 'text']");
+                	for (var i = 0; i < text.length; i ++)
+                    	text[i].style = "margin-left: 5px;font-size: 20px;font-family: cursive;";
+                document.getElementById("header").style = "display: block;margin:auto;width: 300px;";
+                document.getElementById("back").style = "display: block; margin:auto; width: 100px;"
+            }
+        </script>
+    </head>
+    <body>
+    	<div id="leftcorner">
+
+<script>NekoType="mermaid"</script>
+<h1 id=nl><script src="https://webneko.net/n20171213.js"></script><a 
+href="https://webneko.net">Neko</a></h1>
+			
+<script type="text/javascript" src="//counter.websiteout.net/js/24/6/5524/0"></script>
+
+
+        <div id="logo">
+        	<img src="https://web.archive.org/web/20091026165701/http://geocities.com/SouthBeach/Plateau/6460/daria.gif">
+        </div>
+
+        </div>
+        
+        <img src="gif/tumblr_05743159d21500f97a898d96825113bf_be0045c6_250.gif" style="position: relative; top: 200px;">
+        <img src="gif/tumblr_45ea6473afe650602a733306af6c0b90_7d357da9_250.gif" style="position: relative; top: 100px;">
+        <img src="gif/tumblr_d117f5f2761ec7f494f326661508c2b0_9322ded5_400.gif" style="position: relative; top: 200px; left: 300px;">
+        
+    	<div id="myc">
+        <img width="100%" src="png/cooltext448603528599711.png">
+        <img src="gif/tumblr_16a8c62e2ff32c6fdfc8b7adace5d530_64c2e0af_250.gif" style="position:relative;left:-50px;top:-200px">
+
+        
+ 
+        </div>
+    	<div id="box">
+        	<div id="buttons">
+            	<marquee behavior="alternate" onmouseover="this.stop()" onmouseout="this.start()">
+                	<a onclick="contactMe()" rel="nofollow"></a>
+            		     <img src="stamp/11c6231e.png">
+              <img src="stamp/ultimate_madoka_stamp_by_mayu_hikaru-d5jfxh7.png">
+              <img src="stamp/accat.gif">
+              <img src="stamp/d49y9vn-f3a387a8-7c97-4dff-bb5f-86f894b190be.gif">
+              <img src="stamp/my_stamp_collection_stamp_by_crystalstar1001_d5bkonw-fullview.png">
+              <img src="stamp/soulmate9.gif">
+              <img src="stamp/addict.gif">
+              <img src="stamp/flowers.gif">
+              <img src="stamp/ss200.gif">
+                </marquee>
+            </div>
+            
+        	<div id="left">
+            	<div id="aboutme">
+                	<h1>☆ABOUT SHONNA☆</h1>
+                    	<h2>Name:</h2>
+                    		<h3>Alice / Shonna :)</h3>
+                    	<h2>Age:</h2>
+                        	<h3>Fifteen (16/07/08)</h3>
+                        <h2>Interests:</h2>
+                        	<h3>- HTMLCSS, it angers me often but I do enjoy it</h3>
+                            <h3>- Sewing, it also angers me often but it's my biggest hobby pretty much</h3>
+                            <h3>- Video games, music, photography, etc</h3>
+                            <img src="gif/tumblr_4adfb879d72a1047a6de7c11553fa10f_12e556bf_100.gif" style="width: 50%; position: relative; left: 120px;">
+                </div>
+                <div id="mood">
+            		<h3>mycie feels:</h3>
+        			<a href="https://www.imood.com/users/myc">
+                	<img src="https://moods.imood.com/display/uname-myc/fg-000000/bg-adff2f/imood.gif" alt="The current mood of myc at www.imood.com" border="0">
+                	</a>
+            	</div>
+                <div id="oldthemes">
+            		<h3>old themes :)</h3>
+                	<a href="https://mycie.neocities.org/index2">
+                	<img src="https://media.discordapp.net/attachments/777259086303592448/1074708260927578172/pixil-frame-0_27.png" />
+                	</a>
+            	</div>
+                <div id="neocities">
+            		<h3>Follow me on neocities!
+                		<br>
+                		<a href="https://neocities.org/site/soulmate9">
+                    	<img src="https://capstasher.neocities.org/88x31Buttons/neocities_vaporwave_stamp.png">
+                    	</a>
+                	</h3>
+                </div>
+                <div id="teenytowers">
+                	<center><p>teeny towers</p><h6>(another pixel club i joined)</h6></center>
+                    <div id="tower">
+                    	<a href="https://44nifty.com"><img src="https://mycie.neocities.org/44nifty.png"></a>
+                    	<a href="https://keysklubhouse.com"><img src="https://keysklubhouse.com/pixelcliques/teenytowers/elevators.gif"></a>
+                    	<a href="https://zeusofthecrows.github.io/stadt/"><img src="https://mycie.neocities.org/zeusofthecrows.png"></a>
+                    	<br>
+                    	<img src="https://media.discordapp.net/attachments/777259086303592448/1172332061688860732/pixil-gif-drawing_6.gif?ex=655fee50&is=654d7950&hm=3618861d9d4ea3e2615fafa85d7d4af9d408126582bf0b081e8866e1a1fdb4ad&=">
+                    	<a href="https://keysklubhouse.com"><img src="https://keysklubhouse.com/pixelcliques/teenytowers/elevators.gif"></a>
+                    	<a href="https://dxcccii.neocities.org"><img src="https://mycie.neocities.org/dxcccii.gif"></a>
+                    </div>
+                </div>
+                <div id="fanlistings">
+                	<p>fanlistings :)</p>
+        			   <a href="https://dylansanders.com/tbc"><img id="fan" src="https://mycie.neocities.org/tbs.png"></a>
+        			   <a href="https://totallygirl.net/carrie/"><img id="fan" src="https://mycie.neocities.org/carrie.png"></a><br>
+        			   <a href="https://gryffindors.com/lindy/clockwork"><img id="fan" src="https://mycie.neocities.org/aco.png"></a>
+        			   <a href="https://theatregirl.net/clue"><img id="fan" src="https://mycie.neocities.org/clue.png"></a><br>
+        			   <a href="https://hanabi.nu/donniedarko/index.php"><img id="fan" src="https://mycie.neocities.org/donniedarko.png"></a>
+        			   <a href="https://love.in-blue-rain.org/hotel/"><img id="fan" src="https://mycie.neocities.org/gbh.png"></a><br>
+        			   <a href="https://lectersgirl.altervista.org/hannibal/index.php"><img id="fan" src="https://mycie.neocities.org/hannibal.png"></a>
+       			 	   <a href="https://in-rainbows.net/jb/rules.php"><img id="fan" src="https://mycie.neocities.org/jb.jpeg"></a><br>
+        			   <a href="https://king.ravenbeauty.net/misery/"><img id="fan" src="https://mycie.neocities.org/misery.png"></a>
+        			   <a href="https://fan.redcrown.net/bride/"><img id="fan" src="https://mycie.neocities.org/pb.png"></a><br>
+        			   <a href="https://www.into-a-dream.com.ar/wwsm/index.php"><img id="fan" src="https://mycie.neocities.org/wwdits.png"></a>
+        			   <a href="https://eternal-hunt.pw/jareth"><img id="fan" src="https://mycie.neocities.org/jareth.png"></a><br>
+        			   <a href="https://beatles.allneonlike.org"><img id="fan" src="https://mycie.neocities.org/beatles.jpeg"></a>
+        			   <a href="https://moudoku.com/garbage/about.php"><img id="fan" src="https://mycie.neocities.org/garbage.png"></a><br>
+        			   <a href="https://www.ladyrose.buruma.net/gorillaz/index.php"><img id="fan" src="https://mycie.neocities.org/gorillaz.png"></a>
+        			   <a href="https://yerfej.org/queen/"><img id="fan" src="https://mycie.neocities.org/queen.png"></a><br>
+        			   <a href="https://tardis.i-heart-you.net/doctorwho/"><img id="fan" src="https://mycie.neocities.org/dw.gif"></a>
+        			   <a href="https://go.wings.nu/index.php"><img id="fan" src="https://mycie.neocities.org/go.png"></a><br>
+        			   <a href="https://lectersgirl.altervista.org/htv/index.php"><img id="fan" src="https://mycie.neocities.org/hannibal2.jpeg"></a>
+        			   <a href="https://www.ladyrose.buruma.net/snl/show/index.php"><img id="fan" src="https://mycie.neocities.org/snl.jpeg"></a><br>
+        			   <a href="https://www.purifiedfiction.com/chandlerbing/"><img id="fan" src="https://mycie.neocities.org/chandler.jpeg"></a>
+        			   <a href="https://fan.ravenbeauty.net/april/"><img id="fan" src="https://mycie.neocities.org/april.png"></a><br>
+        			   <a href="https://fans.thislove.nu/camera/"><img id="fan" src="https://mycie.neocities.org/digitalcamera.png"></a>
+        			   <a href="https://cameras.thoughtdreams.org/index.php"><img id="fan" src="https://mycie.neocities.org/cameras.gif"></a><br>
+        			   <a href="https://fan.wings.nu/crochet/index.php"><img id="fan" src="https://mycie.neocities.org/crochet.png"></a>
+                </div>
+            </div>
+            
+            <div id="right">
+            	<div id="retronaut">
+                	<h2>retronaut webring!</h2>
+                    	<a href='https://webring.dinhe.net/prev/https://mycie.neocities.org'>previous</a>
+            			<a href='https://webring.dinhe.net/next/https://mycie.neocities.org'>next</a>
+                </div>
+                
+                <div id="hotline">
+                	<h2>hotline webring!</h2>
+                    	<a href="https://hotlinewebring.club/myc/previous">previous</a>
+            			<a href="https://hotlinewebring.club/myc/next">next</a>
+                </div>
+                
+                <div id="null">
+                	<h2>null webring!</h2>
+                    <script src="https://nuthead.neocities.org/ring/ring.js"></script>
+                </div>
+                <div id="safont">
+                	<script src="https://xandra.cc/safonts/webring.js">					  </script>
+ 				  	<ring-900 site="https://mycie.neocities.org/"></ring-900>
+                </div>
+                <div id="mybutton">
+                	<h2>my little button</h2>
+            		<img src="https://media.discordapp.net/attachments/777259086303592448/1085205007047073852/pixil-gif-drawing_15.gif">
+            		<h4>look at my little button. how could you not put it on your site right now?</h4>
+            		<h6>also, if you contact me or ask me to in the guestbook, i'll do the same for your website</h6>
+            		<textarea><a href="https://mycie.neocities.org/"><img src="https://media.discordapp.net/attachments/777259086303592448/1085205007047073852/pixil-gif-drawing_15.gif" /></a></textarea>
+                </div>
+                <div id="bracelet">
+                	<center><p>my charm bracelet :)</p></center>
+                    <center><a href="https://charmbracelets.neocities.org"><img src="https://charmbracelets.neocities.org/silver-connector2.png"></a>
+                	<img src="https://mycie.neocities.org/myccharm.gif">
+                    <a href="https://magic-boots.xyz/charmbracelet"><img src="https://charmbracelets.neocities.org/eva.png"></a>
+                    <a href="https://maxxywaxxy.neocities.org/clubs/charm"><img src="https://media.discordapp.net/attachments/1106541285067731076/1156366669199986729/ezgif-2-39b2389938.gif?ex=6514b5e2&is=65136462&hm=a41069433d7981e7b8b1a391b5e5d57f2d10459b7550874088cd32468d1582b7&=&width=45&height=40"></a>
+                    <a href="https://floral-tears.neocities.org/AdoptedPixels"><img src="floral-tears.png"></a>
+                    <a href="https://charmbracelets.neocities.org"><img src="https://charmbracelets.neocities.org/silver-connector2.png"></a>
+                    <h6>(the eyeball one is mine)</h6>
+                    </center>
+                </div>
+                
+            </div>
+            <marquee id="bottom" onmouseover="this.stop()" onmouseout="this.start()">
+            	<a href="https://snals.neocities.org"><img src="https://snals.neocities.org/snals/snals/buttons/buttonwip.png"></a>
+        		<a href="https://sioned.neocities.org"><img src="https://sioned.neocities.org/sitebtn.gif"></a>
+        		<a href="https://happydancingtoast.neocities.org"><img src="https://happydancingtoast.neocities.org/toast.gif"></a>
+        		<a href="https://www.marxists.org/archive/index.htm"><img src="https://elucidatedvoyyd.neocities.org/communism.gif"></a>
+        		<a href="https://cvrsed.neocities.org"><img src="https://cvrsed.neocities.org/images/buttons/cvrsbutton.gif"></a>
+        		<a href="https://isopodz.neocities.org"><img src="https://media.discordapp.net/attachments/777259086303592448/1079134076939817042/isopodz2.gif"></a>
+        		<a href="https://philia995.neocities.org/"><img src="https://i.imgur.com/1nX5Fzh.jpg" alt="Philia995" style="width:88px;height:31px;"></a>
+        		<a href="https://moonlit-blossom.neocities.org" target="_blank"><img src="https://moonlit-blossom.neocities.org/moonlitblossombutton.gif"></a>
+            	<a href="https://smokeyjoint.neocities.org"><img src="https://media.discordapp.net/attachments/777259086303592448/1085623742044065852/flowers.png"></a>
+            	<a href="https://rh0mbus0fruin.neocities.org"><img src="https://media.discordapp.net/attachments/777259086303592448/1102592991874514954/rh0mbus0fruin-button.png"></a>
+            	<a href="https://irony-machine.neocities.org"><img src="/irony-machine.png"></a>
+            	<a href="https://kopawz.neocities.org"><img src="https://media.discordapp.net/attachments/777259086303592448/1102933023525175296/koscrag.gif"></a>
+            <a href="https://cygnet.neocities.org"><img src="https://cdn.discordapp.com/attachments/790581333373616139/1100976443061710888/button.gif"></a>
+            	<a href = "https://soulmaze.neocities.org/"><img src = "https://soulmaze.neocities.org/images/soulmazebanner.gif"></a>
+            	<a href="https://turtlewitch.neocities.org"><img src="https://turtlewitch.neocities.org/buttons/turtlewitch2.gif"></a>
+            	<a href="https://renyoi.neocities.org/" target="_blank"><img src="https://i.imgur.com/99y5AYM.gif" alt="red button to renyoi's neocities page"></a>
+            	<a href="https://ribo.zone"><img src="https://ribo.zone/88x31/site/ribose.gif"></a>
+            	<a href="https://radiowavegirl.neocities.org/"> <img src="https://cdn.discordapp.com/attachments/1026055470848417882/1109099947120410674/pixil-frame-0_6.png" alt="radiowavegirl"></a>
+            	<a href="https://bigburger.neocities.org"><img src="https://bigburger.neocities.org/button.gif"></a>
+            	<a href="https://hydra16.neocities.org"><img src="https://hydra16.neocities.org/hydra16.gif"></a>
+
+
+            </marquee>
+        </div>
+    </body>
+</html>
