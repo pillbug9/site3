@@ -1,0 +1,1 @@
+hello!! if you're looking at this i assume you've seen my site. if we know eachother irl, hello i feel this might be awkward. i designed this as a passion project and i'll just honestly keep working on it forever maybe. 
